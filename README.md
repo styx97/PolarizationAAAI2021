@@ -1,4 +1,4 @@
-# Code to find alignment between two corpuses as described in [We Don't Speak the Same Language: Interpreting Polarization through Machine Translation](https://arxiv.org/abs/2010.0233)
+# Code to find alignment between two corpora as described in [We Don't Speak the Same Language: Interpreting Polarization through Machine Translation](https://arxiv.org/abs/2010.0233)
 
 
 ### Format - 
@@ -20,8 +20,7 @@ python find_alignment.py \
 - Terminal output shows the percentage of alignment and the number of misaligned pairs. 
 - The output also shows the source word, the nearest word in the aligned space and the top 10 nearest words. 
 - The saved file additionally stores the 10 nearest neighbours in aligned and non-aligned space for comparison.  
-- The last parameter decides the number of words on whom to run the alignment procedure. 
+- The last parameter specifies the number of words on which to run the alignment procedure. 
 
 
-
-Please feel free to reach out to the authors for any question. 
+Please feel free to reach out to the authors [Ashique Khudabukhsh](mailto:akhudabu@cs.cmu.edu) and [Rupak Sarkar](mailto:rupaksarkar.cs@gmail.com). 
