@@ -15,6 +15,7 @@ python find_alignment.py \
 ### Notes - 
 
 - This code follows the algorithm described in [Smith et al. 2019](https://arxiv.org/pdf/1702.03859)
+- The sournce and target embeddings should be trained on corpuses with identical token size. 
 - The frequent_words_filepath should contain the words to check the alignment on. 
 - The source and target embedding files are supposed to be fasttext binaries. 
 - Terminal output shows the percentage of alignment and the number of misaligned pairs. 
